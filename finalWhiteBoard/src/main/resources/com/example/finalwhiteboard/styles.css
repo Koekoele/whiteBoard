@@ -1,0 +1,279 @@
+.root {
+    -fx-background-color: white;
+    -fx-padding: 10px;
+}
+
+.clearBtn {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding: 10px;
+    -fx-border-radius: 2px;
+
+}
+
+.saveBtn, MenuButton {
+       -fx-background-color: #4CAF50;
+       -fx-text-fill: white;
+       -fx-font-size: 10px;
+       -fx-padding: 10px;
+       -fx-border-radius: 2px;
+}
+
+.fileBtn {
+    -fx-background-color: #87CEEB;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding: 10px;
+    -fx-border-radius: 2px;
+
+}
+
+.fileBtn:hover {
+    -fx-background-color: #377E9B;
+}
+
+.clearBtn:hover{
+    -fx-background-color: #8B0000;
+}
+
+
+
+.saveBtn:hover {
+    -fx-background-color: #45a049;
+}
+
+
+
+.tool-bar {
+
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+
+.toolbar {
+    -fx-background-color: #F4F4F4;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+
+.clearBtn, .saveBtn, .redo, .undoBtn, .textBtn, .draw, .erase, .canvasFill {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-focus-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+}
+
+
+.clearBtn:hover, .saveBtn:hover, .redo:hover, .undoBtn:hover, .textBtn:hover, .draw:hover, .erase:hover, .canvasFill:hover {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #000000;
+}
+
+
+.clearBtn:pressed, .saveBtn:pressed, .redo:pressed, .undoBtn:pressed, .textBtn:pressed, .draw:pressed, .erase:pressed, .canvasFill:pressed {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #000000;
+}
+
+
+.tooltip {
+    -fx-background-color: #333333;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-padding: 5px 10px;
+}
+
+
+.toolbar {
+    -fx-background-color: #F4F4F4;
+    -fx-padding: 10;
+    -fx-spacing: 1=20;
+    -fx-alignment: center;
+}
+
+
+
+.fillBtn, .drawBtn, .eraseBtn {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-focus-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+}
+
+
+.fillBtn:hover, .drawBtn:hover, .eraseBtn:hover {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #999999;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0, 0, 2);
+}
+
+
+.fillBtn:pressed, .drawBtn:pressed, .eraseBtn:pressed {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #666666;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 0, 2);
+    -fx-padding: 12px 22px;
+}
+
+
+
+button:hover {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #000000;
+}
+
+
+button:pressed {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #000000;
+}
+
+
+
+.draw {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+
+.erase {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+}
+
+/* Save Button */
+.saveBtn {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+
+.clearBtn {
+    -fx-background-color: #FF9800;
+    -fx-text-fill: white;
+}
+
+
+.undoBtn {
+    -fx-background-color: #9E9E9E;
+    -fx-text-fill: white;
+}
+
+
+.redo {
+    -fx-background-color: #03A
+}
+
+.fileBtn {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #1976D2;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-focus-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 2); /* Subtle shadow */
+}
+
+/* Hover Effect for File Button */
+.fileBtn:hover {
+    -fx-background-color: #1976D2;
+    -fx-text-fill: white;
+}
+
+
+.fileBtn:pressed {
+    -fx-background-color: #1565C0;
+    -fx-text-fill: white;
+}
+
+
+.fileBtn .menu-item {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+
+
+.fileBtn .menu-item:hover {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #000000;
+}
+
+
+.fileBtn .menu-item:focused {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #000000;
+}
+
+
+.addMenuButton {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #388E3C;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-focus-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+}
+
+/* Hover Effect for Add Button */
+.addMenuButton:hover {
+    -fx-background-color: #388E3C;         /* Darker green background when hovered */
+    -fx-text-fill: white;                  /* White text for contrast */
+}
+
+/* Pressed Effect for Add Button */
+.addMenuButton:pressed {
+    -fx-background-color: #2C6B2F;         /* Even darker green background when pressed */
+    -fx-text-fill: white;                  /* White text */
+}
+
+/* Style for MenuItems inside the Add Button */
+.addMenuButton .menu-item {
+    -fx-background-color: #ffffff;         /* White background for menu items */
+    -fx-text-fill: #333333;                /* Dark text color */
+    -fx-padding: 10px 20px;                /* Padding inside the menu items */
+    -fx-font-size: 14px;                   /* Font size */
+    -fx-border-radius: 5px;                /* Rounded corners */
+    -fx-border-color: #cccccc;             /* Light gray border */
+    -fx-border-width: 1px;                 /* Border width */
+}
+
+/* Hover effect for MenuItems inside the Add Button */
+.addMenuButton .menu-item:hover {
+    -fx-background-color: #f0f0f0;         /* Light gray background for menu items on hover */
+    -fx-text-fill: #000000;                /* Dark text color on hover */
+}
+
+/* Focus effect for the menu items inside the Add Button */
+.addMenuButton .menu-item:focused {
+    -fx-background-color: #e0e0e0;         /* Slightly darker gray background for focused menu items */
+    -fx-text-fill: #000000;                /* Dark text color */
+}
