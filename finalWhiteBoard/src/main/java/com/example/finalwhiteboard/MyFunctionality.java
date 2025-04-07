@@ -55,7 +55,7 @@ public class MyFunctionality {
                 double currentY = e.getY();
 
                 // Draw the line
-                gc.setLineWidth(2); // Set line width (can be customized)
+                gc.setLineWidth(2); 
                 gc.strokeLine(prevX[0], prevY[0], currentX, currentY); // Draw the line
 
                 // Update previous X, Y to the current ones for the next stroke
@@ -64,7 +64,7 @@ public class MyFunctionality {
             }
         });
 
-        // Mouse released event to reset previous positions
+       
         canvas.setOnMouseReleased(e -> {
             prevX[0] = -1;
             prevY[0] = -1;
@@ -450,20 +450,20 @@ public class MyFunctionality {
         final double[] prevX = {-1};
         final double[] prevY = {-1};
 
-        // Define the eraser's size, change this value to make the eraser bigger or smaller
+        
         double eraserSize = 30;
 
         erase.setOnAction(e -> {
-            // When the eraser button is pressed, the user can erase on the canvas
-            // This can toggle between drawing and erasing
+            
+           
             canvas.setOnMousePressed(mouseEvent -> {
                 prevX[0] = mouseEvent.getX();
                 prevY[0] = mouseEvent.getY();
 
-                // Set the fill color to white (to simulate erasing)
+                
                 gc.setFill(Color.WHITE);
 
-                // Draw a white rectangle over the area (simulating eraser action)
+                // Draw a white rectangle over the area 
                 gc.fillRect(prevX[0] - eraserSize / 2, prevY[0] - eraserSize / 2, eraserSize, eraserSize);
                 handleDrawingAction(canvas); // Save the current state after erasing
             });
